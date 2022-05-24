@@ -1,0 +1,288 @@
+@media screen and (max-width: 1200px) {
+    .pictures__block{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .pictures__main2{
+        height: 80vh;
+    }
+
+    .beka_rayon{
+        padding: 68px 30px 45px 30px;
+    }
+
+    .footer_item h2{
+        font-size: 18px;
+    }
+
+    .footer_item li{
+        font-size: 12px;
+    }
+
+    .ulan_knock {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px
+    }
+
+    .ulan_back{
+        padding: 0;
+        margin: 0;
+    }
+
+    .ulan_back1{
+        margin: 0;
+        padding: 0;
+    }
+
+    .ulan_back2{
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .main__item h2{
+        font-size: 70px;
+    }
+
+    .main__item h3{
+        font-size: 50px;
+    }
+
+    .choose__numbers h2{
+        font-size: 70px;
+    }
+
+    .choose__block {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .beka_macho {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .beka_rayon{
+        padding: 68px 100px 45px 100px;
+    }
+
+    .coaches__block{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .hamburger{
+        display: block;
+        position: fixed;
+        padding: 0;
+    }
+
+    .header__free.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,.7);
+        position: fixed;
+    }   
+
+    .header__free.active img{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+    }
+
+    .header__free {
+        display: none;
+    }
+
+    .lorem h2{
+        font-size: 40px;
+    }
+
+    .who__item h2{
+        font-size: 40px;
+    }
+    
+    .who__item span{
+        font-size: 40px;
+    }
+
+    .footer_nav{
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .footer_item h2{
+        margin-bottom: 25px;
+    }
+
+    .ulan_back{
+        padding: 0;
+        margin: 0;
+    }
+
+    .ulan_back1{
+        margin: 0;
+        padding: 0;
+    }
+
+    .ulan_back2{
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .main__item h2{
+        font-size: 50px;
+    }
+
+    .main__item h3{
+        font-size: 30px;
+    }
+
+    .main__button {
+        font-size: 12px;
+        padding: 14px 28px;
+    }
+
+    .pictures__block{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .pictures__main {
+        height: 80vh;
+    }
+
+    .pictures__main1{
+        height: 80vh;
+    }
+
+    .pictures__main2{
+        height: 80vh;
+    }
+
+    .pictures__main3{
+        height: 80vh;
+    }
+
+    .coaches__block{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main__item h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .main__item h3{
+        font-size: 25px;
+    }
+
+    .main__item p{
+        font-size: 12px;
+    }
+
+    .lorem h2{
+        font-size: 30px;
+    }
+
+    .lorem p{
+        font-size: 14px;
+    }
+
+    .who a{
+        font-size: 12px;
+        padding: 14px 28px;
+    }
+
+    .choose__item h2 {
+        font-size: 30px;
+    }
+    
+    .choose__item span{
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .beka_rayon{
+        padding: 68px 50px 45px 50px;
+    }
+    
+    .coach__item h2{
+        font-size: 40px;
+    }
+
+    .beka_black h2{
+        font-size: 30px;
+    }
+
+    .beka_black span{
+        font-size: 30px;
+    }
+
+    .say h2{
+        font-size: 40px;
+    }
+
+    .say span{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main__item h2{
+        font-size: 30px;
+    }
+
+    .main__item h3{
+        font-size: 20px;
+    }
+
+    .main__item p{
+        font-size: 10px;
+    }
+
+    .beka_rayon{
+        padding: 68px 20px 45px 20px;
+    }
+
+    .ulan_item p{
+        font-size: 14px;
+    }
+
+    .ulan_main p{
+        font-size: 18px;
+    }
+
+    .ulan_box p{
+        font-size: 14px;
+    }
+}
